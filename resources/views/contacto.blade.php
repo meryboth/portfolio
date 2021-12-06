@@ -3,9 +3,9 @@
 @section("main")
 
 <div class="container mb-5 mt-5">
-    <div class="d-flex flex-row">
-        <div class="m-3 form__img"><img src="{!! asset('images/clip-1709.png')!!}" alt=""></div>
-        <div class="col m-auto">
+    <div class="row jusfity-content-center">
+        <div class="m-3 form__img col-lg-6 col-md-6 col-ms-12 col-xs-12 m-auto"><img src="{!! asset('images/clip-1709.png')!!}" alt=""></div>
+        <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 m-auto">
             <div class="well well-sm">
                 <form class="form-horizontal m-auto" method="post">
                     <fieldset>

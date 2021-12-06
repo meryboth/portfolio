@@ -55,9 +55,9 @@
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center m-5">
-        <img src="https://images.unsplash.com/photo-1620428268482-cf1851a36764?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1109&q=80" alt="" class="rounded img-fluid m-1" style="width: 650px; overflow:hidden;">
-        <img src="https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="rounded img-fluid m-1" style="width: 650px; overflow:hidden;">
+    <div class="row justify-content-center m-5">
+        <img src="https://images.unsplash.com/photo-1620428268482-cf1851a36764?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1109&q=80" alt="" class="rounded img-fluid m-1 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width: 650px; overflow:hidden;">
+        <img src="https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="rounded img-fluid m-1 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width: 650px; overflow:hidden;">
     </div>
     <div class="bg-light container m-auto mb-5">
         <h2 class="text-center m-5">Proyecto B</h2>
@@ -75,9 +75,9 @@
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center m-5">
-        <img src="https://images.unsplash.com/photo-1580196969807-cc6de06c05be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1579&q=80" alt="" class="rounded img-fluid m-1" style="width: 650px; overflow:hidden;">
-        <img src="https://images.unsplash.com/photo-1579762593175-20226054cad0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1236&q=80" alt="" class="rounded img-fluid m-1" style="width: 650px; overflow:hidden;">
+    <div class="row justify-content-center m-5">
+        <img src="https://images.unsplash.com/photo-1580196969807-cc6de06c05be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1579&q=80" alt="" class="rounded img-fluid m-1 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width: 650px; overflow:hidden;">
+        <img src="https://images.unsplash.com/photo-1579762593175-20226054cad0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1236&q=80" alt="" class="rounded img-fluid m-1 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width: 650px; overflow:hidden;">
     </div>
     <div class="bg-light container m-auto mb-5">
         <h2 class="text-center m-5">Proyecto C</h2>
@@ -95,9 +95,9 @@
             </div>
         </div>
     </div>
-    <div class="d-flex justify-content-center m-5">
-        <img src="https://images.unsplash.com/photo-1509664158680-07c5032b51e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="rounded img-fluid m-1" style="width: 650px; overflow:hidden;">
-        <img src="https://images.unsplash.com/photo-1472201248592-1241c92256ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1588&q=80" alt="" class="rounded img-fluid m-1" style="width: 650px; overflow:hidden;">
+    <div class="row justify-content-center m-5">
+        <img src="https://images.unsplash.com/photo-1509664158680-07c5032b51e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="rounded img-fluid m-1 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width: 650px; overflow:hidden;">
+        <img src="https://images.unsplash.com/photo-1472201248592-1241c92256ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1588&q=80" alt="" class="rounded img-fluid m-1 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width: 650px; overflow:hidden;">
     </div>
 </section>
 <section class="d-flex justify-content-center">

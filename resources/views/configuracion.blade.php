@@ -30,13 +30,13 @@
         <!-- 2 column grid layout with text inputs for the first and last names -->
         <h2 class="text-center m-4">Editar perfil</h2>
         <div class="row mb-4">
-          <div class="col">
+          <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="form-outline">
               <input type="text" id="form3Example1" class="form-control" />
               <label class="form-label" for="form3Example1">Nombre</label>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="form-outline">
               <input type="text" id="form3Example2" class="form-control" />
               <label class="form-label" for="form3Example2">Apellido</label>
@@ -75,13 +75,13 @@
       </div>
         <h2 class="text-center m-4">Redes Sociales</h2>
         <div class="row mb-4">
-            <div class="col">
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="form-outline">
                 <input type="text" id="linkedin" class="form-control" />
                 <label class="form-label" for="linkedin"><img src="https://icongr.am/fontawesome/linkedin-square.svg?size=20&color=c20000" alt="" class="m-1">Linkedin</label>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="form-outline">
                 <input type="text" id="correo" class="form-control" />
                 <label class="form-label" for="correo"><img src="https://icongr.am/fontawesome/envelope.svg?size=20&color=c20000" alt="" class="m-1">Correo</label>
@@ -89,16 +89,16 @@
             </div>
           </div>
           <div class="row mb-4">
-            <div class="col">
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="form-outline">
                 <input type="text" id="instagram" class="form-control" />
-                <label class="form-label" for="instagram"><img src="https://icongr.am/fontawesome/instagram.svg?size=20&color=c20000" alt="" class="m-1">Instagram</label>
+                <label class="form-label col-xs-12" for="instagram"><img src="https://icongr.am/fontawesome/instagram.svg?size=20&color=c20000" alt="" class="m-1">Instagram</label>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="form-outline">
                 <input type="text" id="facebook" class="form-control" />
-                <label class="form-label" for="facebook"><img src="https://icongr.am/fontawesome/facebook-official.svg?size=20&color=c20000" alt="" class="m-1">Facebook</label>
+                <label class="form-label " for="facebook"><img src="https://icongr.am/fontawesome/facebook-official.svg?size=20&color=c20000" alt="" class="m-1">Facebook</label>
               </div>
             </div>
           </div>
