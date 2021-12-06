@@ -2,7 +2,7 @@
 
 @section("main")
 
-<form class="container w-25 mt-5 mb-5">
+<form class="container col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-5 mb-5">
     <h3 class="text-center">Welcome back!</h3>
     <!-- Email input -->
     <div class="form-outline mb-4">

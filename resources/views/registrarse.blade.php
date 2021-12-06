@@ -4,15 +4,15 @@
 
 <form class="container  w-50">
     <!-- 2 column grid layout with text inputs for the first and last names -->
-    <h1 class="text-center m-4">Registrarse</h1>
+    <h1 class="text-center m-4 row">Registrarse</h1>
     <div class="row mb-4">
-      <div class="col">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="form-outline">
           <input type="text" id="form3Example1" class="form-control" />
           <label class="form-label" for="form3Example1">Nombre</label>
         </div>
       </div>
-      <div class="col">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="form-outline">
           <input type="text" id="form3Example2" class="form-control" />
           <label class="form-label" for="form3Example2">Apellido</label>

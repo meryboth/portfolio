@@ -51,7 +51,7 @@
 
 
       <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 bg-light">
+<footer class="page-footer font-small blue pt-2 bg-light">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -60,7 +60,7 @@
       <div class="row">
   
         <!-- Grid column -->
-        <div class="col-md-4 mt-md-0 mt-3 footer__logo">
+        <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mt-md-0 mt-3 mb-3 footer__logo">
   
           <!-- Content -->
           <img src="{!! asset('images/clip-175.png')!!}" alt="">
@@ -68,10 +68,8 @@
         </div>
         <!-- Grid column -->
   
-        <hr class="clearfix w-100 d-md-none pb-3">
-  
         <!-- Grid column -->
-        <div class="col-md-4 mb-md-0 mb-3">
+        <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mb-md-0 mb-3">
   
           <!-- Links -->
           <h5 class="text-uppercase">Links</h5>
@@ -92,7 +90,7 @@
         <!-- Grid column -->
   
         <!-- Grid column -->
-        <div class="col-md-4 mb-md-0 mb-3">
+        <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mb-md-0 mb-3">
   
           <!-- Links -->
           <h5 class="text-uppercase">Redes</h5>
