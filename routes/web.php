@@ -42,7 +42,7 @@ Route::get('/perfil', function () { /* perfil de usuario */
     return view('perfil');
 })->name('perfil');
 
-Route::get('/formPortfolio', function () { /* nuevo portfolio */
+Route::get('perfil/formPortfolio', function () { /* nuevo portfolio */
     return view('formPortfolio');
 })->name('formPortfolio');
 
@@ -50,6 +50,6 @@ Route::get('/portfolio', function () { /* visualizacion portfolio */
     return view('portfolio');
 })->name('portfolio');
 
-Route::get('/configuracion', function () { /* configuracion perfil de usuario */
+Route::get('perfil/configuracion', function () { /* configuracion perfil de usuario */
     return view('configuracion');
 })->name('configuracion');
