@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="{!! asset('css/style.css') !!}">
 
     <title>App Portfolio</title>
-    <!-- Scripts -->
-    <script type="text/javascript" src="{!! asset('js/coleccion.js') !!}"></script>
+    
 
   </head>
   <body>

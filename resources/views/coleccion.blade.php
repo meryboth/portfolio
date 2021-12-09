@@ -1,8 +1,4 @@
-<style>
-  #galeriaArq {
-    display: none;
-}
-</style>
+
 
 @extends("layout")
 
@@ -18,15 +14,16 @@
           </button>
         </div>
      </div>
-     <div class="botones container m-auto">
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaArq();">Arquitectura</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaDg();">Diseño grafico</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaPj();">Paisajismo</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaDi();">Diseño de indumentaria</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaDw();">Diseño Web</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaDin();">Diseño industrial</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaMk();">Marketing</button>
-        <button type="button" class="btn btn-danger m-2" onclick="galeriaUx();">UX UI</button>
+     <div class="container m-auto">
+       <div class="col">
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaArq();">Arquitectura</button>
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaDg();">Diseño grafico</button>
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaPj();">Paisajismo</button>
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaDi();">Diseño de indumentaria</button>
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaDw();">Diseño Web</button>
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaDin();">Diseño industrial</button>
+          <button type="button" class="btn btn-danger m-2" onclick="galeriaMk();">Marketing</button>
+       </div>
      </div>
 </section>
 <main id="galeria">
@@ -134,8 +131,7 @@
         </section>
 </main>
 
-<main id="arq">
-</main>
+
 
 <main id="dg">
 </main>
@@ -155,6 +151,9 @@
 <main id="mk">
 </main>
 
+<main id="arq">
+</main>
+
 <main id="uxui">
 </main>
 
@@ -164,5 +163,9 @@
 
 
 @endsection
+
+<script type="text/javascript" src="{!! asset('js/coleccion.js') !!}"></script>
+
+
 
 
