@@ -10,7 +10,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
     <!-- Plantilla propia CSS -->
-    <link rel="stylesheet" href="{!! asset('css/style.css') !!}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <title>App Portfolio</title>
     

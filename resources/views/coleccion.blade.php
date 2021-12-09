@@ -15,7 +15,7 @@
         </div>
      </div>
      <div class="container m-auto">
-       <div class="col">
+       <div class="col text-center">
           <button type="button" class="btn btn-danger m-2" onclick="galeriaArq();">Arquitectura</button>
           <button type="button" class="btn btn-danger m-2" onclick="galeriaDg();">Diseño grafico</button>
           <button type="button" class="btn btn-danger m-2" onclick="galeriaPj();">Paisajismo</button>
@@ -154,9 +154,6 @@
 <main id="arq">
 </main>
 
-<main id="uxui">
-</main>
-
 <section class="text-center">
     <a href="#up"><img src="https://icongr.am/fontawesome/angle-double-up.svg?size=80&color=cc0505" alt=""></a>
 </section>
@@ -164,7 +161,7 @@
 
 @endsection
 
-<script type="text/javascript" src="{!! asset('js/coleccion.js') !!}"></script>
+<script type="text/javascript" src="{{ asset('js/coleccion.js') }}"></script>
 
 
 
