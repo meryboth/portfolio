@@ -1,3 +1,14 @@
+function aleatorio(){
+    document.getElementById("galeria").style.display = "block";
+    document.getElementById("dg").innerHTML = "";
+    document.getElementById("pj").innerHTML = "";
+    document.getElementById("di").innerHTML = "";
+    document.getElementById("dw").innerHTML = "";
+    document.getElementById("din").innerHTML = "";
+    document.getElementById("mk").innerHTML = "";
+    document.getElementById("arq").innerHTML = "";
+}
+
 function galeriaArq() {
     document.getElementById("galeria").style.display = "none";
     document.getElementById("dg").innerHTML = "";

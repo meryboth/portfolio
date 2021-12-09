@@ -16,6 +16,7 @@
      </div>
      <div class="container m-auto">
        <div class="col text-center">
+          <button type="button" class="btn btn-danger m-2" onclick="aleatorio();">Aleatorio</button>
           <button type="button" class="btn btn-danger m-2" onclick="galeriaArq();">Arquitectura</button>
           <button type="button" class="btn btn-danger m-2" onclick="galeriaDg();">Diseño grafico</button>
           <button type="button" class="btn btn-danger m-2" onclick="galeriaPj();">Paisajismo</button>
