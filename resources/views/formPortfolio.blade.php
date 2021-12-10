@@ -96,20 +96,18 @@
           </a>
         </div>
     </div>
-  
-  
-      <hr class="my-4">
     </form>
   
-    <!-- Nuevo Formulario de Proyecto-->
-    <section class="container  w-50" id="newForm">
-  
-    </section>
+     <!-- Nuevo Formulario -->
+  <section id="cuerpo" onload="load();">
+    <div id="caja">
+    </div>
+  </section>
 </main>
 
     <hr class="my-4">
         <div class="d-flex justify-content-center">
-          <button href="#" onclick="newForm();">
+          <button onclick="test();" style="border: 0px">
               <div class="bg-white rounded shadow-sm text-center "><div class="img-fluid bg-light card-img-top d-flex flex-column justify-content-center align-items-center"><img src="https://icongr.am/fontawesome/plus.svg?size=50&color=d6d6d6" alt="" class="align-self-center"></div>
                 <div class="p-4">
                   <h5> <a href="#" class="text-dark">Nuevo Proyecto</a></h5>
@@ -122,6 +120,8 @@
     
     <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-5">Guardar Portfolio</button></div>
   </form>
+
+ 
   
 @endsection
 
