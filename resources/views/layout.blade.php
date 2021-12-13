@@ -10,9 +10,10 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
     <!-- Plantilla propia CSS -->
-    <link rel="stylesheet" href="{!! asset('css/style.css') !!}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <title>App Portfolio</title>
+    
 
   </head>
   <body>
@@ -51,7 +52,7 @@
 
 
       <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 bg-light">
+<footer class="page-footer font-small blue pt-2 bg-light">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -60,7 +61,7 @@
       <div class="row">
   
         <!-- Grid column -->
-        <div class="col-md-4 mt-md-0 mt-3 footer__logo">
+        <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mt-md-0 mt-3 mb-3 footer__logo">
   
           <!-- Content -->
           <img src="{!! asset('images/clip-175.png')!!}" alt="">
@@ -68,10 +69,8 @@
         </div>
         <!-- Grid column -->
   
-        <hr class="clearfix w-100 d-md-none pb-3">
-  
         <!-- Grid column -->
-        <div class="col-md-4 mb-md-0 mb-3">
+        <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mb-md-0 mb-3">
   
           <!-- Links -->
           <h5 class="text-uppercase">Links</h5>
@@ -92,7 +91,7 @@
         <!-- Grid column -->
   
         <!-- Grid column -->
-        <div class="col-md-4 mb-md-0 mb-3">
+        <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mb-md-0 mb-3">
   
           <!-- Links -->
           <h5 class="text-uppercase">Redes</h5>
@@ -130,6 +129,7 @@
     <!-- Copyright -->
   
   </footer>
+
   <!-- Footer -->
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -141,5 +141,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
   </body>
 </html>
