@@ -14,7 +14,7 @@ class ProfessionFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'category' => $this->faker->randomElement(['Developer','Designer','Photographer']),
         ];
     }
 }

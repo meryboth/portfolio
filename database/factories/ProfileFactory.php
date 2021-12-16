@@ -17,7 +17,7 @@ class ProfileFactory extends Factory
             'name' =>$this->faker->name(),
             'lastName' =>$this->faker->lastName(),
             'email' =>$this->faker->unique()->safeEmail(),
-            'avatar' =>$this->faker->name(),
+            'avatar' =>$this->faker->firstName(),
             'password' =>$this->faker->password(),
             'ocupation' =>$this->faker->randomElement(['Developer','Designer','Photographer']),
             'bio' =>$this->faker->paragraph()

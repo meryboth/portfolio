@@ -15,7 +15,7 @@ class CreateProfessionsTable extends Migration
     {
         Schema::create('professions', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('category');
             //$table->unsignedBigInteger('profile_id');
 
             //$table->foreign('profile_id')->references('id')->on('profiles');

@@ -15,6 +15,15 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->text('description');
+            $table->boolean('enable')->nullable();
+            $table->string('portfolioId')->nullable();
+            $table->string('image');
+            $table->unsignedBigInteger('portfolio_id')->nullable();
+
+            $table->foreign('portfolio_id')->references('id')->on('portfolios');
+
             $table->timestamps();
         });
     }
