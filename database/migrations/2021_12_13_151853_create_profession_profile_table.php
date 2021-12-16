@@ -15,6 +15,13 @@ class CreateProfessionProfileTable extends Migration
     {
         Schema::create('profession_profile', function (Blueprint $table) {
             $table->id();
+
+            $table->unsignedBigInteger('profession_id');
+            $table->unsignedBigInteger('profile_id');
+
+            $table->foreign('profession_id')->references('id')->on('professions')->onDelete('cascade');
+            $table->foreign('profile_id')->references('id')->on('profiles')->onDelete('cascade');
+
             $table->timestamps();
         });
     }
