@@ -15,6 +15,16 @@ class CreatePortfoliosTable extends Migration
     {
         Schema::create('portfolios', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('area');
+            $table->text('description');
+            $table->text('thumbnail');
+            $table->boolean('enable');
+            $table->string('avatarId');
+            $table->unsignedBigInteger('profile_id');
+
+            $table->foreign('profile_id')->references('id')->on('profiles');
+
             $table->timestamps();
         });
     }
