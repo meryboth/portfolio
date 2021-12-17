@@ -60,11 +60,6 @@
         <label class="form-label" for="form3Example1">Nombre del proyecto</label>
       </div>
   
-      <!-- Ocupación input -->
-      <div class="form-outline mb-4">
-          <input type="text" id="form3Example2" class="form-control" />
-          <label class="form-label" for="form3Example2">Rubro / Especialidad</label>
-        </div>
   
         <!-- Descripcion input -->
     <div class="form-outline mb-4">
@@ -74,7 +69,7 @@
       <!-- Palabras claves -->
     <div class="form-outline mb-4">
       <input type="text" id="form3Example2" class="form-control" />
-      <label class="form-label" for="form3Example2">Palabras claves</label>
+      <label class="form-label" for="form3Example2">Tecnologias</label>
     </div>
   
     <div class="d-flex flex-column justify-content-center">
