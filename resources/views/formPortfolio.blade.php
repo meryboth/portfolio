@@ -42,7 +42,7 @@
   </div>
   <div class="form-outline mb-4 m-auto w-50">
     <textarea class="form-control" id="form4Example6" rows="4"></textarea>
-    <label class="form-label" for="form4Example6">Descripción del proyecto</label>
+    <label class="form-label" for="form4Example6">Descripción del portfolio</label>
   </div>
   <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-3">Guardar Portfolio</button></div>
 </form>
