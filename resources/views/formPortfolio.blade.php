@@ -28,12 +28,31 @@
       </ul>
 </section>
 
+<!-- PORTFOLIO -->
+
+<form class="container  bg-light my-5 border rounded-3" id="formPortfolio">
+  <h2 class="text-center m-4">Portfolio</h2>
+  <div class="form-outline mb-4 w-50 m-auto">
+    <input type="text" id="form3Example1" class="form-control" />
+    <label class="form-label" for="form3Example1">Nombre del Portfolio</label>
+  </div>
+  <div class="form-outline mb-4 m-auto w-50">
+    <input type="text" id="form3Example2" class="form-control" />
+    <label class="form-label" for="form3Example2">Rubro</label>
+  </div>
+  <div class="form-outline mb-4 m-auto w-50">
+    <textarea class="form-control" id="form4Example6" rows="4"></textarea>
+    <label class="form-label" for="form4Example6">Descripción del proyecto</label>
+  </div>
+  <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-5">Guardar Portfolio</button></div>
+</form>
+
 <!-- PROYECTO -->
 
 <main>
-  <form class="container  w-50" id="form">
+  <form class="container  w-50" id="formProyecto">
       <!-- 2 column grid layout with text inputs for the first and last names -->
-      <h1 class="text-center m-4">Proyecto</h1>
+      <h2 class="text-center m-4">Proyecto</h2>
   
       <!-- Nombre proyecto input -->
       <div class="form-outline mb-4">
@@ -118,7 +137,7 @@
         </div>
     <!-- Submit button -->
     
-    <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-5">Guardar Portfolio</button></div>
+    <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-5">Guardar proyectos</button></div>
   </form>
 
  
