@@ -51,13 +51,13 @@
   <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
     <!-- Card-->
     <div class="card shadow-sm border-0 rounded m-3" style="height: 330px;">
-      <div class="card-body p-0"><img src="https://via.placeholder.com/150" alt="" class="w-100 card-img-top">
+      <div class="card-body p-0"><img src="{{ asset('images/ignacio.jpeg')}}" alt="" class="w-100 card-img-top">
         <div class="p-4 text-center">
           <h5 class="mb-0">Ignacio Valdivia</h5>
           <p class="small text-muted">FullStack Dev</p>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-github"></i></a></li>
-            <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item m-0"><a href="https://github.com/IgnaValdivia" class="social-link" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li class="list-inline-item m-0"><a href="http://www.linkedin.com/in/ignacio-ariel-valdivia" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
