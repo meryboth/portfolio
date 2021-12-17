@@ -44,13 +44,13 @@
     <textarea class="form-control" id="form4Example6" rows="4"></textarea>
     <label class="form-label" for="form4Example6">Descripción del proyecto</label>
   </div>
-  <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-5">Guardar Portfolio</button></div>
+  <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-3">Guardar Portfolio</button></div>
 </form>
 
 <!-- PROYECTO -->
 
 <main>
-  <form class="container  w-50" id="formProyecto">
+  <form class="container  w-50" id="form">
       <!-- 2 column grid layout with text inputs for the first and last names -->
       <h2 class="text-center m-4">Proyecto</h2>
   
@@ -77,43 +77,20 @@
       <label class="form-label" for="form3Example2">Palabras claves</label>
     </div>
   
-    <div class="row justify-content-center">
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <a href="#">
-              <div class="bg-white rounded shadow-sm text-center "><div class="img-fluid bg-light card-img-top d-flex flex-column justify-content-center align-items-center"><img src="https://icongr.am/fontawesome/plus.svg?size=50&color=c20000" alt="" class="align-self-center"></div>
-                <div class="p-4">
-                  <h5> <a href="#" class="text-dark">Agregar Imagen</a></h5>
-                </div>
-              </div>
-          </a>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <a href="#">
-              <div class="bg-white rounded shadow-sm text-center "><div class="img-fluid bg-light card-img-top d-flex flex-column justify-content-center align-items-center"><img src="https://icongr.am/fontawesome/plus.svg?size=50&color=c20000" alt="" class="align-self-center"></div>
-                <div class="p-4">
-                  <h5> <a href="#" class="text-dark">Agregar Imagen</a></h5>
-                </div>
-              </div>
-          </a>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <a href="#">
-              <div class="bg-white rounded shadow-sm text-center "><div class="img-fluid bg-light card-img-top d-flex flex-column justify-content-center align-items-center"><img src="https://icongr.am/fontawesome/plus.svg?size=50&color=c20000" alt="" class="align-self-center"></div>
-                <div class="p-4">
-                  <h5> <a href="#" class="text-dark">Agregar Imagen</a></h5>
-                </div>
-              </div>
-          </a>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <a href="#">
-              <div class="bg-white rounded shadow-sm text-center "><div class="img-fluid bg-light card-img-top d-flex flex-column justify-content-center align-items-center"><img src="https://icongr.am/fontawesome/plus.svg?size=50&color=c20000" alt="" class="align-self-center"></div>
-                <div class="p-4">
-                  <h5> <a href="#" class="text-dark">Agregar Imagen</a></h5>
-                </div>
-              </div>
-          </a>
-        </div>
+    <div class="d-flex flex-column justify-content-center">
+      <h3 class="text-center">Subir imágenes</h3>
+      <div class="row m-auto my-3">
+        <input type="file" id="image1">
+      </div>
+      <div class="row m-auto my-3">
+        <input type="file" id="image2">
+      </div>
+      <div class="row m-auto my-3">
+        <input type="file" id="image3">
+      </div>
+      <div class="row m-auto my-3">
+        <input type="file" id="image4">
+      </div>
     </div>
     </form>
   
