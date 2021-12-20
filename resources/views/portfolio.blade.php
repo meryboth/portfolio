@@ -43,7 +43,7 @@
         <h2 class="text-center m-5">Proyecto A</h2>
         <div class="d-flex justify-content-center align-items-center">
             <p class="w-50 ml-3 text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis non commodi esse, tempora harum ex quisquam ea! Esse labore sapiente inventore, eveniet reprehenderit quia maiores possimus nesciunt culpa odio ratione, provident reiciendis tempora ex quam nulla eligendi temporibus quos assumenda.</p>
-            <div class="col">
+          <!--  <div class="col">
                 <h6 class="fw-bold mx-4">
                     Tecnologías
                 </h6>
@@ -52,7 +52,7 @@
                     <li>- Adobe Illustrator</li>
                     <li>- Adobe XD</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="row justify-content-center m-5">
@@ -63,7 +63,7 @@
         <h2 class="text-center m-5">Proyecto B</h2>
         <div class="d-flex justify-content-center align-items-center">
             <p class="w-50 ml-3 text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis non commodi esse, tempora harum ex quisquam ea! Esse labore sapiente inventore, eveniet reprehenderit quia maiores possimus nesciunt culpa odio ratione, provident reiciendis tempora ex quam nulla eligendi temporibus quos assumenda.</p>
-            <div class="col">
+            <!--   <div class="col">
                 <h6 class="fw-bold mx-4">
                     Tecnologías
                 </h6>
@@ -72,7 +72,7 @@
                     <li>- Adobe Illustrator</li>
                     <li>- Adobe XD</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="row justify-content-center m-5">
@@ -83,7 +83,7 @@
         <h2 class="text-center m-5">Proyecto C</h2>
         <div class="d-flex justify-content-center align-items-center">
             <p class="w-50 ml-3 text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis non commodi esse, tempora harum ex quisquam ea! Esse labore sapiente inventore, eveniet reprehenderit quia maiores possimus nesciunt culpa odio ratione, provident reiciendis tempora ex quam nulla eligendi temporibus quos assumenda.</p>
-            <div class="col">
+            <!--   <div class="col">
                 <h6 class="fw-bold mx-4">
                     Tecnologías
                 </h6>
@@ -92,7 +92,7 @@
                     <li>- Adobe Illustrator</li>
                     <li>- Adobe XD</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="row justify-content-center m-5">
