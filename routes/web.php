@@ -88,9 +88,9 @@ Route::get('Portfolio/perfil', function () { /* perfil de usuario */
 })->name('perfil');
 
 //PORTFOLIO
-/*
+
 Route::resource('/Portfolio', PortfolioController::class);
-*/
+
 
 Route::get('perfil/formPortfolio', function () { /* nuevo portfolio */
     return view('formPortfolio');

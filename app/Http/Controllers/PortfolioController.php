@@ -14,7 +14,7 @@ class PortfolioController extends Controller
      */
     public function index()
     {
-        //Return view (‘empleado.create);
+        //
         return view('portfolio');
     }
 
