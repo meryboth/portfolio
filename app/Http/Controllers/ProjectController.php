@@ -15,6 +15,7 @@ class ProjectController extends Controller
     public function index()
     {
         //
+        return view('portfolio');
     }
 
     /**
@@ -25,6 +26,7 @@ class ProjectController extends Controller
     public function create()
     {
         //
+        return view('formPortfolio');
     }
 
     /**

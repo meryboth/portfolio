@@ -14,7 +14,8 @@ class PortfolioController extends Controller
      */
     public function index()
     {
-        //
+        //Return view (‘empleado.create);
+        return view('portfolio');
     }
 
     /**
@@ -25,6 +26,7 @@ class PortfolioController extends Controller
     public function create()
     {
         //
+        return view('formPortfolio');
     }
 
     /**
