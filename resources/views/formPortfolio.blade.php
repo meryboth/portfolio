@@ -30,7 +30,7 @@
 
 <!-- PORTFOLIO -->
 
-<form class="container  bg-light my-5 border rounded-3" id="formPortfolio" action="{{ url('/formPortfolio') }}" method="post" >
+<form class="container  bg-light my-5 border rounded-3" id="formPortfolio" action="{{ url('perfil/formPortfolio') }}" method="post" enctype="multipart/form-data">
   @csrf
 
   <h2 class="text-center m-4">Portfolio</h2>

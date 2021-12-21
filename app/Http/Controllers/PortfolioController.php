@@ -38,6 +38,12 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
+        $datosPortfolio = request()->except('_token');
+        // esta variable tiene una peticion para que se almacene ciertos datos en el Portfolio
+        Portfolio::insert($datosPortfolio);
+        return response()->json($datosPortfolio); 
+        
+        //retorna la respuesta como json de los datos que se insertaron en el form
     }
 
     /**
