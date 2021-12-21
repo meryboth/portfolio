@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Profile;
 use Illuminate\Http\Request;
+use App\Http\Controllers\DB;
+use Illuminate\Support\Facades\DB as FacadesDB;
 
 class ProfileController extends Controller
 {
@@ -35,7 +37,16 @@ class ProfileController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $name = $request->post("nombre");
+        $lastName = $request->post("apellido");
+        $email = $request->post("mail");
+        $password = $request->post("contraseña");
+        $ocupation = $request->post("ocupacion");
+        $bio = $request->post("bio");
+        //Hacer validaciones
+        //FacadesDB::insert("INSERT INTO usuario (nombre, apellido,mail,contrasena,ocupacion,bio) VALUES (?,?,?,?,?,?)", [$name,$lastName,$email,$password,$ocupation,$bio]);
+
+        return $request->all();
     }
 
     /**

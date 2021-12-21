@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -53,3 +54,5 @@ Route::get('/portfolio', function () { /* visualizacion portfolio */
 Route::get('perfil/configuracion', function () { /* configuracion perfil de usuario */
     return view('configuracion');
 })->name('configuracion');
+
+Route::resource('/registrarse',ProfileController::class)->only('store');
