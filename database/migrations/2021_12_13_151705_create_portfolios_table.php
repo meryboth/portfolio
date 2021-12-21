@@ -18,7 +18,6 @@ class CreatePortfoliosTable extends Migration
             $table->string('name');
             $table->string('category');
             $table->text('description');
-            $table->text('thumbnail');
             $table->boolean('enable')->nullable();
             $table->string('avatarId')->nullable();
             $table->unsignedBigInteger('profile_id')->nullable();

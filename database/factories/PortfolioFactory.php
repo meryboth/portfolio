@@ -16,8 +16,7 @@ class PortfolioFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'category' => $this->faker->randomElement(['Developer','Designer','Photographer']),
-            'description' => $this->faker->paragraph(),
-            'thumbnail' => $this->faker->image()
+            'description' => $this->faker->paragraph()
         ];
     }
 }
