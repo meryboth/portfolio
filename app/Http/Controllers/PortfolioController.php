@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
-
 use App\Http\Controllers\DB;
 use Illuminate\Support\Facades\DB as FacadesDB;
 
@@ -40,14 +39,12 @@ class PortfolioController extends Controller
      */
     public function store(Request $request)
     {
-  
-        $name = $request->post("Nombre del Portfolio");
-        $category = $request->post("Rubro");
-        $description = $request->post("Descripción del portfolio");
+        $name = $request->post("name");
+        $category = $request->post("category");
+        $description = $request->post("description");
         
-        FacadesDB::insert("INSERT INTO portfolio (name, category,description) VALUES (?,?,?)", [$name,$category,$description]);
+        FacadesDB::insert("INSERT INTO portfolios (name, category, description) VALUES (?,?,?)", [$name,$category,$description]);
 
-        return $request->all();
     }
 
     /**
