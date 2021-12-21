@@ -45,9 +45,6 @@ class PortfolioController extends Controller
         $category = $request->post("Rubro");
         $description = $request->post("Descripción del portfolio");
        
-        //Hacer validaciones
-        //FacadesDB::insert("INSERT INTO usuario (nombre, apellido,mail,contrasena,ocupacion,bio) VALUES (?,?,?,?,?,?)", [$name,$lastName,$email,$password,$ocupation,$bio]);
-
         return $request->all();
     }
 
