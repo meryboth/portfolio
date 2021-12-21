@@ -54,7 +54,7 @@
 <!-- PROYECTO -->
 
 <main>
-  <form class="container  w-50" id="form" action="{{ url('/Portfolio') }}" method="post" enctype="multipart/form-data">
+  <form class="container  w-50" id="form" ction="{{route('formPortfolio.store')}}" method="POST" enctype="multipart/form-data">
   @csrf
 
   <!-- 2 column grid layout with text inputs for the first and last names -->
