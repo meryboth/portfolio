@@ -7,9 +7,6 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\DB;
 use Illuminate\Support\Facades\DB as FacadesDB;
 
-use App\Http\Controllers\DB;
-use Illuminate\Support\Facades\DB as FacadesDB;
-
 class PortfolioController extends Controller
 {
     /**
@@ -46,7 +43,7 @@ class PortfolioController extends Controller
         $category = $request->post("category");
         $description = $request->post("description");
         
-        FacadesDB::insert("INSERT INTO portfolios (name, category,description) VALUES (?,?,?)", [$name,$category,$description]);
+        FacadesDB::insert("INSERT INTO portfolios (name, category, description) VALUES (?,?,?)", [$name,$category,$description]);
 
     }
 
