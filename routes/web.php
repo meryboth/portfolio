@@ -89,11 +89,11 @@ Route::get('Portfolio/perfil', function () { /* perfil de usuario */
 
 //PORTFOLIO
 
-Route::resource('perfil/formPortfolio', PortfolioController::class);
+Route::resource('/formPortfolio', PortfolioController::class)->only('store');
 
 
 /*
-Route::get('perfil/formPortfolio', function () { /* nuevo portfolio 
+Route::get('perfil/formPortfolio', function () { /* nuevo portfolio
     return view('formPortfolio');
 })->name('formPortfolio');
 
@@ -101,19 +101,19 @@ Route::get('Portfolio/formPortfolio', function () { /* nuevo portfolio
     return view('formPortfolio');
 })->name('formPortfolio');
 
-Route::get('/formPortfolio', function () { /* nuevo portfolio 
+Route::get('/formPortfolio', function () { /* nuevo portfolio
     return view('formPortfolio');
 })->name('formPortfolio');
 
 
-Route::post('perfil/formPortfolio', function () { /* nuevo portfolio 
+Route::post('/perfil/formPortfolio', function () { /* nuevo portfolio
     return view('formPortfolio');
 })->name('formPortfolio');
-*/
-Route::get('/Portfolio', function () { /* visualizacion portfolio */
+
+Route::get('/Portfolio', function () { /* visualizacion portfolio 
     return view('portfolio');
 })->name('portfolio');
-
+*/
 
 //CONFIG USUARIO
 Route::get('perfil/configuracion', function () { /* configuracion perfil de usuario */

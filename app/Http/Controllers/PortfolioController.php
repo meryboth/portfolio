@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\DB;
+use Illuminate\Support\Facades\DB as FacadesDB;
+
 class PortfolioController extends Controller
 {
     /**
@@ -38,12 +41,14 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
-        $datosPortfolio = request()->except('_token');
-        // esta variable tiene una peticion para que se almacene ciertos datos en el Portfolio
-        Portfolio::insert($datosPortfolio);
-        return response()->json($datosPortfolio); 
-        
-        //retorna la respuesta como json de los datos que se insertaron en el form
+        $name = $request->post("Nombre del Portfolio");
+        $category = $request->post("Rubro");
+        $description = $request->post("Descripción del portfolio");
+       
+        //Hacer validaciones
+        //FacadesDB::insert("INSERT INTO usuario (nombre, apellido,mail,contrasena,ocupacion,bio) VALUES (?,?,?,?,?,?)", [$name,$lastName,$email,$password,$ocupation,$bio]);
+
+        return $request->all();
     }
 
     /**
