@@ -44,9 +44,7 @@ class ProfileController extends Controller
         $ocupation = $request->post("ocupacion");
         $bio = $request->post("bio");
         //Hacer validaciones
-        //FacadesDB::insert("INSERT INTO usuario (nombre, apellido,mail,contrasena,ocupacion,bio) VALUES (?,?,?,?,?,?)", [$name,$lastName,$email,$password,$ocupation,$bio]);
-
-        return $request->all();
+        FacadesDB::insert("INSERT INTO users (name, email,password) VALUES (?,?,?)", [$name,$email,"56456"]);
     }
 
     /**

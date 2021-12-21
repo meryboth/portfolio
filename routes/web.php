@@ -111,7 +111,7 @@ Route::get('/portfolio', function () { /* visualizacion portfolio */
 
 
 //CONFIG USUARIO
-Route::get('perfil/configuracion', function () { /* configuracion perfil de usuario */
+Route::get('perfil/configursacion', function () { /* configuracion perfil de usuario */
     return view('configuracion');
 })->name('configuracion');
 
