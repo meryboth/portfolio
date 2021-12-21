@@ -41,17 +41,11 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
-<<<<<<< HEAD
-        $datosPortfolio = request()->except('_token');
-        Portfolio::insert($datosPortfolio);
-        return response()->($datosPortfolio);
-=======
         $name = $request->post("Nombre del Portfolio");
         $category = $request->post("Rubro");
         $description = $request->post("Descripción del portfolio");
        
         return $request->all();
->>>>>>> 3027bb528b2b9b5084909455ec1125f136f20e63
     }
 
     /**
