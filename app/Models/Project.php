@@ -10,7 +10,8 @@ class Project extends Model
     use HasFactory;
 
     //ManyToOne
-    public function portfolio() {
+    public function portfolio()
+    {
         return $this->belongsTo('App\Models\Portfolio');
     }
 }

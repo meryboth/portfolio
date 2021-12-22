@@ -17,11 +17,11 @@ class CreateProjectsTable extends Migration
             $table->id();
             $table->string('name');
             $table->text('description');
-            $table->string('technology');
+           // $table->string('technology')->nullable();
             $table->boolean('enable')->nullable();
             $table->string('portfolioId')->nullable();
-            $table->string('image1');
-            $table->string('image2');
+            //$table->string('image1')->nullable();
+            //$table->string('image2')->nullable();
             $table->unsignedBigInteger('portfolio_id')->nullable();
 
             $table->foreign('portfolio_id')->references('id')->on('portfolios');

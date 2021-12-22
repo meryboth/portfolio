@@ -27,7 +27,7 @@ class ProjectController extends Controller
     public function create()
     {
         //
-        return view('formPortfolio');
+        return view('formProyecto');
     }
 
     /**
@@ -40,11 +40,11 @@ class ProjectController extends Controller
     {
         $name = $request->post("name");
         $description = $request->post("description");
-        $technology = $request->post("technology");
-        $image1 = $request->post("image1");
-        $image2 = $request->post("image2");
+        //$technology = $request->post("technology");
+        //$image1 = $request->post("image1");
+        //$image2 = $request->post("image2");
         
-        FacadesDB::insert("INSERT INTO projects (name, description, technology, image1, image2) VALUES (?,?,?,?,?)", [$name,$description,$technology,$image1,$image2]);
+        FacadesDB::insert("INSERT INTO projects (name, description) VALUES (?,?)", [$name,$description]);
 
         return $request->all();
     }

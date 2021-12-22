@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\ProjectController;
 use App\Models\Portfolio;
 use Illuminate\Support\Facades\Route;
 
@@ -88,7 +89,9 @@ Route::get('Portfolio/perfil', function () { /* perfil de usuario */
 })->name('perfil');
 
 //PORTFOLIO
+
 Route::resource('/formPortfolio', PortfolioController::class)->only('store');
+
 Route::resource('/formProyecto', ProjectController::class)->only('store');
 
 Route::get('/formPortfolio', function () { /* nuevo portfolio*/
