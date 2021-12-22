@@ -20,7 +20,7 @@ class CreateProjectsTable extends Migration
            // $table->string('technology')->nullable();
             $table->boolean('enable')->nullable();
             $table->string('portfolioId')->nullable();
-            //$table->string('image1')->nullable();
+            $table->binary('image1')->nullable();
             //$table->string('image2')->nullable();
             $table->unsignedBigInteger('portfolio_id')->nullable();
 

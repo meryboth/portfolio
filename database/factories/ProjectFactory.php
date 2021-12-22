@@ -19,7 +19,7 @@ class ProjectFactory extends Factory
             'description' => $this->faker->paragraph(),
            // 'technology' => $this->faker->randomElement(['Laravel','PHP','Adobe']),
             'image1' => $this->faker->image(),
-            'image2' => $this->faker->image()
+           // 'image2' => $this->faker->image()
         ];
     }
 }

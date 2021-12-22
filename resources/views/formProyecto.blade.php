@@ -71,13 +71,14 @@
       <input type="text" name="technology" id="proyectoTechnology" class="form-control" />
       <label class="form-label" for="technology">Tecnologias</label>
     </div>
-
+-->
 
     <div class="d-flex flex-column justify-content-center">
       <h3 class="text-center">Subir imágenes</h3>
       <div class="row m-auto my-3">
         <input type="file" id="image1">
       </div>
+      <!--
       <div class="row m-auto my-3">
         <input type="file" id="image2">
       </div>
