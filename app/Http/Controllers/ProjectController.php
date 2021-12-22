@@ -44,7 +44,7 @@ class ProjectController extends Controller
         $image1 = $request->post("image1");
         $image2 = $request->post("image2");
         
-        FacadesDB::insert("INSERT INTO project (name, description, technology, image1, image2) VALUES (?,?,?,?,?)", [$name,$description,$technology,$image1,$image2]);
+        FacadesDB::insert("INSERT INTO projects (name, description, technology, image1, image2) VALUES (?,?,?,?,?)", [$name,$description,$technology,$image1,$image2]);
 
         return $request->all();
     }
