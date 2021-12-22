@@ -54,7 +54,7 @@
 <!-- PROYECTO -->
 
 <main>
-  <form class="container  w-50" id="form" action="{{ url('/Portfolio') }}" method="post" enctype="multipart/form-data">
+  <form class="container  w-50" id="form" action="{{route('formPortfolio.store')}}" method="POST" enctype="multipart/form-data">
   @csrf
 
   <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -86,12 +86,6 @@
       </div>
       <div class="row m-auto my-3">
         <input type="file" id="image2">
-      </div>
-      <div class="row m-auto my-3">
-        <input type="file" id="image3">
-      </div>
-      <div class="row m-auto my-3">
-        <input type="file" id="image4">
       </div>
     </div>
     </form>

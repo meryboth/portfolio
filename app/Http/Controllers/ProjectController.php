@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Project;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB as FacadesDB;
 
 class ProjectController extends Controller
 {
@@ -37,7 +38,15 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $name = $request->post("name");
+        $description = $request->post("description");
+        $technology = $request->post("technology");
+        $image1 = $request->post("image1");
+        $image2 = $request->post("image2");
+        
+        FacadesDB::insert("INSERT INTO project (name, description, technology, image1, image2) VALUES (?,?,?,?,?)", [$name,$description,$technology,$image1,$image2]);
+
+        return $request->all();
     }
 
     /**
