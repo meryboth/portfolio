@@ -2,17 +2,20 @@
 
 @section("main")
 
-<form class="container col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-5 mb-5">
+
+<form class="container col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-5 mb-5" method="POST" action="">
+  @csrf
+
     <h3 class="text-center">Welcome back!</h3>
     <!-- Email input -->
     <div class="form-outline mb-4">
-      <input type="email" id="form1Example1" class="form-control" />
+      <input name="email" type="email" id="form1Example1" class="form-control" />
       <label class="form-label" for="form1Example1">Email address</label>
     </div>
   
     <!-- Password input -->
     <div class="form-outline mb-4">
-      <input type="password" id="form1Example2" class="form-control" />
+      <input name="password" type="password" id="form1Example2" class="form-control" />
       <label class="form-label" for="form1Example2">Password</label>
     </div>
   
@@ -37,9 +40,12 @@
         <a href="#!">Forgot password?</a>
       </div>
     </div>
-  
+   <!-- Error Message -->
+    @error('message')
+      <p class="border border-red-500 rounded-md bg-red-100 w-full text-red-600 p-2 my-2">* Error</p>
+    @enderror
+
     <!-- Submit button -->
-    
     <div class="col text-center"><button type="submit" class="btn btn-danger btn-block ">Sign in</button></div>
     <!-- Register buttons -->
     <div class="text-center mb-5">

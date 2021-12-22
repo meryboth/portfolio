@@ -29,7 +29,7 @@
   
     <!-- Password input -->
     <div class="form-outline mb-4">
-      <input name="contrasena" type="password" id="form3Example4" class="form-control" />
+      <input name="contrasenia" type="password" id="form3Example4" class="form-control" />
       <label class="form-label" for="form3Example4">Contraseña</label>
     </div>
 

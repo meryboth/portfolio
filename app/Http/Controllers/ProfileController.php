@@ -40,11 +40,12 @@ class ProfileController extends Controller
         $name = $request->post("nombre");
         $lastName = $request->post("apellido");
         $email = $request->post("mail");
-        $password = $request->post("contraseña");
+        $password = bcrypt($request->post("contrasenia"));
         $ocupation = $request->post("ocupacion");
         $bio = $request->post("bio");
         //Hacer validaciones
-        FacadesDB::insert("INSERT INTO users (name, email,password) VALUES (?,?,?)", [$name,$email,"56456"]);
+        FacadesDB::insert("INSERT INTO users (name, email,password) VALUES (?,?,?)", [$name,$email,$password]);
+        return redirect()->to('/index');
     }
 
     /**

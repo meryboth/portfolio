@@ -4,6 +4,9 @@ use App\Http\Controllers\PortfolioController;
 use App\Models\Portfolio;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\SessionsController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -61,6 +64,9 @@ Route::get('Portfolio/nosotros', function () {
 Route::get('/login', function () {
     return view('login');
 })->name('login');
+
+Route::post('/login', [SessionsController::class, 'store'])->name('login.store');
+
 
 Route::get('Portfolio/login', function () {
     return view('login');
