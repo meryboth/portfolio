@@ -17,7 +17,9 @@ class ProjectFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'description' => $this->faker->paragraph(),
-            'image' => $this->faker->image()
+            'technology' => $this->faker->randomElement('Laravel','PHP','Adobe'),
+            'image1' => $this->faker->image(),
+            'image2' => $this->faker->image()
         ];
     }
 }
