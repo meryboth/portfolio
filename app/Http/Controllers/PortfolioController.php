@@ -13,10 +13,13 @@ class PortfolioController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
-     */
-    public function index()
+     */ 
+    public function index(Request $request)
     {
-        //
+            $name = $request->get("name");
+        $category = $request->get("category");
+        $description = $request->get("description");
+
         return view('portfolio');
     }
 

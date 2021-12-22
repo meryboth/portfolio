@@ -76,7 +76,7 @@
     <div class="d-flex flex-column justify-content-center">
       <h3 class="text-center">Subir imágenes</h3>
       <div class="row m-auto my-3">
-        <input type="file" id="image1">
+        <input type="file" name="image1" id="image1">
       </div>
       <!--
       <div class="row m-auto my-3">
