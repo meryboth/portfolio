@@ -88,6 +88,10 @@ Route::get('Portfolio/perfil', function () { /* perfil de usuario */
     return view('perfil');
 })->name('perfil');
 
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
+
 //PORTFOLIO
 
 Route::resource('/formPortfolio', PortfolioController::class)->only('store');

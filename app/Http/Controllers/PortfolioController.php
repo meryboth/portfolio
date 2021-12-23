@@ -16,11 +16,14 @@ class PortfolioController extends Controller
      */ 
     public function index(Request $request)
     {
-            $name = $request->get("name");
+        
+        $datos["portfolio"]=Portfolio::paginate(1);
+
+        $name = $request->get("name");
         $category = $request->get("category");
         $description = $request->get("description");
 
-        return view('portfolio');
+        return view('portfolio', $datos);
     }
 
     /**

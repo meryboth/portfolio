@@ -29,16 +29,20 @@
 </section>
 
 <section>
-    <h1 class="text-center">Portfolio de ilustraciones</h1>
+
+    @foreach ( $portfolio as $datosPortfolio)
+    <h1 class="text-center">{{ $datosPortfolio->name }}</h1>
     <div class="d-flex justify-content-center">
-        <h4 class="fw-bold text-center m-1">Ilustraciones</h4>
-        <h4 class="fw-bold text-center m-1"> | Diseño Gráfico</h4>
+        <h4 class="fw-bold text-center m-1">{{ $datosPortfolio->category }}</h4>
     </div>
     <div class="row justify-content-center m-3">
         <div class="bg-light w-50">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, delectus veniam doloribus ipsum nesciunt alias tempore recusandae autem, numquam quae veritatis molestias atque deserunt officiis molestiae animi nemo incidunt! Possimus quod accusantium facilis repellat in officiis recusandae itaque reiciendis obcaecati.</p>
+            <p>{{ $datosPortfolio->description }}</p>
         </div>
     </div>
+
+
+    @endforeach
     <div class="bg-light container m-auto mb-5">
         <h2 class="text-center m-5">Proyecto A</h2>
         <div class="d-flex justify-content-center align-items-center">
