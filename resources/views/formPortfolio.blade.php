@@ -48,7 +48,7 @@
     <textarea class="form-control" name="description" id="portfolioDescription" rows="4"></textarea>
     <label class="form-label" for="description">Descripción del portfolio</label>
   </div>
-  <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-3">Guardar Portfolio</button></div>
+  <div class="col text-center"><button type="submit" class="btn btn-danger btn-block mb-4 mt-3"><a href="{{'formProyecto'}}">Guardar Portfolio</a></button></div>
 </form>
   
 @endsection

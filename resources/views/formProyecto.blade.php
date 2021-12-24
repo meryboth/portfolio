@@ -32,17 +32,19 @@
 
 <!-- PORTFOLIO -->
 
-<section <h1 class="text-center">Portfolio</h1>
-  <div class="d-flex justify-content-center">
-    <h4 class="fw-bold text-center m-1"> Nombre </h4>
-    <h4 class="fw-bold text-center m-1"> Rubro </h4>
-  </div>
-  <div class="row justify-content-center m-3">
-    <div class="bg-light w-50">
-      <p>Descripcion del portfolio </p>
+@foreach ( $portfolio as $datosPortfolio)
+    <h1 class="text-center">{{ $datosPortfolio->name }}</h1>
+    <div class="d-flex justify-content-center">
+        <h4 class="fw-bold text-center m-1">{{ $datosPortfolio->category }}</h4>
     </div>
-  </div>
-</section>
+    <div class="row justify-content-center m-3">
+        <div class="bg-light w-50">
+            <p>{{ $datosPortfolio->description }}</p>
+        </div>
+    </div>
+
+
+    @endforeach
 
 <!-- PROYECTO -->
 
