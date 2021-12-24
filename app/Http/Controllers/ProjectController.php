@@ -6,6 +6,7 @@ use App\Models\Project;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Str;
 use App\Http\Controllers\Storage;
+use App\Models\Portfolio;
 use Illuminate\Support\Facades\DB as FacadesDB;
 
 class ProjectController extends Controller
@@ -18,6 +19,8 @@ class ProjectController extends Controller
     public function index()
     {
         //
+        
+        
         return view('portfolio');
     }
 
@@ -29,7 +32,9 @@ class ProjectController extends Controller
     public function create()
     {
         //
-        return view('formProyecto');
+        $datos["portfolio"]=Portfolio::orderby('id','desc')->paginate(1);
+        
+        return view('formProyecto', $datos);
     }
 
     /**

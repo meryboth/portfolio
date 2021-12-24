@@ -94,41 +94,11 @@ Route::get('/portfolio', function () {
 
 //PORTFOLIO
 
-Route::resource('/formPortfolio', PortfolioController::class)->only('store');
+Route::resource('/formPortfolio', PortfolioController::class);
 
-Route::resource('/formProyecto', ProjectController::class)->only('store');
-
-Route::get('/formPortfolio', function () { /* nuevo portfolio*/
-    return view('formPortfolio');
-})->name('formPortfolio');
-
-Route::get('/formProyecto', function () { /* nuevo portfolio*/
-    return view('formProyecto');
-})->name('formProyecto');
+Route::resource('/formProyecto', ProjectController::class);
 
 
-/*
-Route::get('perfil/formPortfolio', function () { /* nuevo portfolio
-    return view('formPortfolio');
-})->name('formPortfolio');
-
-Route::get('Portfolio/formPortfolio', function () { /* nuevo portfolio 
-    return view('formPortfolio');
-})->name('formPortfolio');
-
-Route::get('/formPortfolio', function () { /* nuevo portfolio
-    return view('formPortfolio');
-})->name('formPortfolio');
-
-
-Route::post('/perfil/formPortfolio', function () { /* nuevo portfolio
-    return view('formPortfolio');
-})->name('formPortfolio');
-
-Route::get('/Portfolio', function () { /* visualizacion portfolio 
-    return view('portfolio');
-})->name('portfolio');
-*/
 
 //CONFIG USUARIO
 Route::get('perfil/configuracion', function () { /* configuracion perfil de usuario */

@@ -33,7 +33,8 @@
 <!-- PORTFOLIO -->
 
 @foreach ( $portfolio as $datosPortfolio)
-    <h1 class="text-center">{{ $datosPortfolio->name }}</h1>
+    
+  <h1 class="text-center">{{ $datosPortfolio->name }}</h1>
     <div class="d-flex justify-content-center">
         <h4 class="fw-bold text-center m-1">{{ $datosPortfolio->category }}</h4>
     </div>
@@ -44,7 +45,7 @@
     </div>
 
 
-    @endforeach
+@endforeach
 
 <!-- PROYECTO -->
 

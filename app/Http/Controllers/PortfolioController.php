@@ -23,7 +23,7 @@ class PortfolioController extends Controller
         $category = $request->get("category");
         $description = $request->get("description");
 
-        return view('formProyecto', $datos);
+        return view('formPortfolio', $datos);
     }
 
     /**
