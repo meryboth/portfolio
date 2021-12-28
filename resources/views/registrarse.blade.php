@@ -2,19 +2,20 @@
 
 @section("main")
 
-<form class="container  w-50">
+<form method="POST" action="{{route('registrarse.store')}}"  class="container  w-50">
+  @csrf
     <!-- 2 column grid layout with text inputs for the first and last names -->
     <h1 class="text-center m-4 row">Registrarse</h1>
     <div class="row mb-4">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="form-outline">
-          <input type="text" id="form3Example1" class="form-control" />
+          <input name="nombre" type="text" id="form3Example1" class="form-control" />
           <label class="form-label" for="form3Example1">Nombre</label>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <div class="form-outline">
-          <input type="text" id="form3Example2" class="form-control" />
+          <input name="apellido" type="text" id="form3Example2" class="form-control" />
           <label class="form-label" for="form3Example2">Apellido</label>
         </div>
       </div>
@@ -22,25 +23,25 @@
   
     <!-- Email input -->
     <div class="form-outline mb-4">
-      <input type="email" id="form3Example3" class="form-control" />
+      <input name="mail" type="email" id="form3Example3" class="form-control" />
       <label class="form-label" for="form3Example3">Email</label>
     </div>
   
     <!-- Password input -->
     <div class="form-outline mb-4">
-      <input type="password" id="form3Example4" class="form-control" />
+      <input name="contrasenia" type="password" id="form3Example4" class="form-control" />
       <label class="form-label" for="form3Example4">Contraseña</label>
     </div>
 
     <!-- Ocupación input -->
     <div class="form-outline mb-4">
-        <input type="text" id="form3Example5" class="form-control" />
+        <input name="ocupacion" type="text" id="form3Example5" class="form-control" />
         <label class="form-label" for="form3Example5">Ocupación</label>
       </div>
 
       <!-- Message input -->
   <div class="form-outline mb-4">
-    <textarea class="form-control" id="form4Example6" rows="4"></textarea>
+    <textarea name="bio" class="form-control" id="form4Example6" rows="4"></textarea>
     <label class="form-label" for="form4Example6">Bio - Max 300 carácteres.</label>
   </div>
   
